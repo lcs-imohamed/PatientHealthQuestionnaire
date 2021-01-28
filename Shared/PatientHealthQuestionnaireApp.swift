@@ -11,7 +11,11 @@ import SwiftUI
 struct PatientHealthQuestionnaireApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //Add navigation view
+            NavigationView{
+                ContentView()
+            }
+            
         }
     }
 }
