@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33243DDD25C3282500BDA158 /* GAD7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33243DDC25C3282500BDA158 /* GAD7.swift */; };
+		33243DDE25C3282500BDA158 /* GAD7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33243DDC25C3282500BDA158 /* GAD7.swift */; };
 		33F2414025C31D930093E33E /* PatientHealthQuestionnaireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2412D25C31D8E0093E33E /* PatientHealthQuestionnaireApp.swift */; };
 		33F2414125C31D930093E33E /* PatientHealthQuestionnaireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2412D25C31D8E0093E33E /* PatientHealthQuestionnaireApp.swift */; };
 		33F2414225C31D930093E33E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2412E25C31D8E0093E33E /* ContentView.swift */; };
 		33F2414325C31D930093E33E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2412E25C31D8E0093E33E /* ContentView.swift */; };
 		33F2414425C31D930093E33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F2412F25C31D930093E33E /* Assets.xcassets */; };
 		33F2414525C31D930093E33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F2412F25C31D930093E33E /* Assets.xcassets */; };
+		33F2416525C323A50093E33E /* PHQ9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2416425C323A50093E33E /* PHQ9.swift */; };
+		33F2416625C323A50093E33E /* PHQ9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2416425C323A50093E33E /* PHQ9.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33243DDC25C3282500BDA158 /* GAD7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAD7.swift; sourceTree = "<group>"; };
 		33F2412D25C31D8E0093E33E /* PatientHealthQuestionnaireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHealthQuestionnaireApp.swift; sourceTree = "<group>"; };
 		33F2412E25C31D8E0093E33E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33F2412F25C31D930093E33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		33F2413C25C31D930093E33E /* PatientHealthQuestionnaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientHealthQuestionnaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F2413E25C31D930093E33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33F2413F25C31D930093E33E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		33F2416425C323A50093E33E /* PHQ9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHQ9.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				33F2412E25C31D8E0093E33E /* ContentView.swift */,
+				33F2416425C323A50093E33E /* PHQ9.swift */,
+				33243DDC25C3282500BDA158 /* GAD7.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,7 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33243DDD25C3282500BDA158 /* GAD7.swift in Sources */,
 				33F2414225C31D930093E33E /* ContentView.swift in Sources */,
+				33F2416525C323A50093E33E /* PHQ9.swift in Sources */,
 				33F2414025C31D930093E33E /* PatientHealthQuestionnaireApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33243DDE25C3282500BDA158 /* GAD7.swift in Sources */,
 				33F2414325C31D930093E33E /* ContentView.swift in Sources */,
+				33F2416625C323A50093E33E /* PHQ9.swift in Sources */,
 				33F2414125C31D930093E33E /* PatientHealthQuestionnaireApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
