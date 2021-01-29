@@ -21,6 +21,11 @@ struct PatientHealthQuestionnaireApp: App {
                 PHQ9()
             }
             
+            //Add navigation view of GAD7 View
+            NavigationView {
+                GAD7()
+            }
+            
         }
     }
 }
