@@ -13,12 +13,12 @@ struct PatientHealthQuestionnaireApp: App {
         WindowGroup {
             //Add navigation view for list main page
             NavigationView{
-                ContentView()
+                ContentView(store: testStore)
             }
             
             //Add navigation view of PHQ9 View
             NavigationView {
-                PHQ9()
+                PHQ9(store: testStore)
             }
             
             //Add navigation view of GAD7 View

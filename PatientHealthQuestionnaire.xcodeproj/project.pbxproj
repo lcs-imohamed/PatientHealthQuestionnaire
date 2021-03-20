@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33243DDD25C3282500BDA158 /* GAD7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33243DDC25C3282500BDA158 /* GAD7.swift */; };
-		33243DDE25C3282500BDA158 /* GAD7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33243DDC25C3282500BDA158 /* GAD7.swift */; };
+		33243DDD25C3282500BDA158 /* GAD7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33243DDC25C3282500BDA158 /* GAD7View.swift */; };
+		33243DDE25C3282500BDA158 /* GAD7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33243DDC25C3282500BDA158 /* GAD7View.swift */; };
+		339942132605343300819783 /* ResultsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339942122605343300819783 /* ResultsStore.swift */; };
 		33F2414025C31D930093E33E /* PatientHealthQuestionnaireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2412D25C31D8E0093E33E /* PatientHealthQuestionnaireApp.swift */; };
 		33F2414125C31D930093E33E /* PatientHealthQuestionnaireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2412D25C31D8E0093E33E /* PatientHealthQuestionnaireApp.swift */; };
 		33F2414225C31D930093E33E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2412E25C31D8E0093E33E /* ContentView.swift */; };
@@ -20,7 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33243DDC25C3282500BDA158 /* GAD7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAD7.swift; sourceTree = "<group>"; };
+		33243DDC25C3282500BDA158 /* GAD7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAD7View.swift; sourceTree = "<group>"; };
+		339942122605343300819783 /* ResultsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsStore.swift; sourceTree = "<group>"; };
 		33F2412D25C31D8E0093E33E /* PatientHealthQuestionnaireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHealthQuestionnaireApp.swift; sourceTree = "<group>"; };
 		33F2412E25C31D8E0093E33E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33F2412F25C31D930093E33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,7 +104,7 @@
 			children = (
 				33F2412E25C31D8E0093E33E /* ContentView.swift */,
 				33F2416425C323A50093E33E /* PHQ9.swift */,
-				33243DDC25C3282500BDA158 /* GAD7.swift */,
+				33243DDC25C3282500BDA158 /* GAD7View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,6 +112,7 @@
 		33F2415125C321C80093E33E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				339942122605343300819783 /* ResultsStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,7 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33243DDD25C3282500BDA158 /* GAD7.swift in Sources */,
+				33243DDD25C3282500BDA158 /* GAD7View.swift in Sources */,
+				339942132605343300819783 /* ResultsStore.swift in Sources */,
 				33F2414225C31D930093E33E /* ContentView.swift in Sources */,
 				33F2416525C323A50093E33E /* PHQ9.swift in Sources */,
 				33F2414025C31D930093E33E /* PatientHealthQuestionnaireApp.swift in Sources */,
@@ -222,7 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33243DDE25C3282500BDA158 /* GAD7.swift in Sources */,
+				33243DDE25C3282500BDA158 /* GAD7View.swift in Sources */,
 				33F2414325C31D930093E33E /* ContentView.swift in Sources */,
 				33F2416625C323A50093E33E /* PHQ9.swift in Sources */,
 				33F2414125C31D930093E33E /* PatientHealthQuestionnaireApp.swift in Sources */,

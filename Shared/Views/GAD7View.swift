@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct GAD7: View {
+    
+    
     var body: some View {
         
         VStack {
             //Adds prompt to screen
-            Text("Over the last two weeks, how often have you been bothered by the following problems?")
-                .font(.subheadline)
             
+            
+            Text("Over the last two weeks, how often have you been bothered by the following problems?")             .font(.subheadline)
+
             
             Spacer()
             

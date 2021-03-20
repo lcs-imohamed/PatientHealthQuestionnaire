@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct PHQ9: View {
+    
+    @ObservedObject var store: ResultsStore
+    
     var body: some View {
         
         VStack {
             //Adds prompt to screen
-            Text("Over the last 2 weeks, how often have you been bothered by any of the following problems?")
+            Text("1. Over the last 2 weeks, how often have you been bothered by any of the following problems?")
                 .font(.subheadline)
             
             Spacer()
@@ -25,31 +28,38 @@ struct PHQ9: View {
                 //Adds buttons for user to click
                 Button("Not at all") {
                     
-                    //Print function shows what will eventually happen, computer will keep track of score and present it at the end with results.
-                    
-                    print("Add 0 to score")
+                    // Add 0 to score
+                    store.score += 0
                 }
                 
                 .padding()
                 
                 Button("Several days") {
-                    print("Add 1 to score")
+                   
+                    // Add 1 to score
+                    store.score += 1
                 }
                 
                 .padding()
                 
                 Button("More than half of the days") {
-                    print("Add 2 to score")
+                    
+                    // Add 2 to score
+                    store.score += 2
                 }
                 
                 .padding()
                 
                 Button("Nearly everyday") {
-                    print("Add 3 to score")
+                    
+                    // Add 3 to score
+                    store.score += 3
                 }
                 
                 .padding()
             
+                
+                Text("Current score: \(store.score)")
                 
             }
             
@@ -66,7 +76,7 @@ struct PHQ9_Previews: PreviewProvider {
     static var previews: some View {
         //Allows user to navigate to this view
         NavigationView {
-            PHQ9()
+            PHQ9(store: testStore)
         }
        
     }
