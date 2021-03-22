@@ -23,7 +23,7 @@ struct PatientHealthQuestionnaireApp: App {
             
             //Add navigation view of GAD7 View
             NavigationView {
-                GAD7()
+                GAD7(store: testStore)
             }
             
         }

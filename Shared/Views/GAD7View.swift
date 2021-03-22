@@ -9,6 +9,7 @@ import SwiftUI
 
 struct GAD7: View {
     
+    @ObservedObject var store: ResultsStore
     
     var body: some View {
         
@@ -32,33 +33,38 @@ struct GAD7: View {
             VStack{
                 Button("Not at all") {
                     
-                    //Print function shows what will eventually happen, computer will keep track of score and present it at the end with results.
-                    
-                    print("Add 0 to score")
+                    // Add 0 to score
+                    store.score += 0
                 }
                 
                 .padding()
             
                 Button("Several days") {
-                    print("Add 1 to score")
+                    
+                    // Add 1 to score
+                    store.score += 1
                 }
                 
                 .padding()
                 
                 Button("More than half of the days") {
-                    print("Add 2 to score")
+                    
+                    // Add 2 to score
+                    store.score += 2
                 }
                 
                 .padding()
                 
                 
                 Button("Nearly everyday") {
-                    print("Add 3 to score")
+                    
+                    // Add 3 to score
+                    store.score += 3
                 }
                 
                 .padding()
                 
-                
+                Text("Current score: \(store.score)")
                 
             }
             
@@ -72,7 +78,7 @@ struct GAD7: View {
     struct GAD7_Previews: PreviewProvider {
         static var previews: some View {
             NavigationView{
-                GAD7()
+                GAD7(store: testStore)
             }
             
         }

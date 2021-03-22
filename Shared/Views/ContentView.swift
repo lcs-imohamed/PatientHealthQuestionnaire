@@ -22,7 +22,7 @@ struct ContentView: View {
             }
                 
             //Add a link to navigate to the GAD-7
-            NavigationLink(destination: GAD7()) {
+            NavigationLink(destination: GAD7(store: testStore)) {
                 Text("GAD-7")
 
 
