@@ -14,7 +14,9 @@ struct PatientHealthQuestionnaireApp: App {
             
             //Add navigation view for list main page
             
-                
+//            NavigationView {
+//                SwiftUIView()
+//            }
         
             TabView {
                 
