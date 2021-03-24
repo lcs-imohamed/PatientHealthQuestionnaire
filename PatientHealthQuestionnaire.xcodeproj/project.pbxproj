@@ -10,6 +10,7 @@
 		33243DDD25C3282500BDA158 /* GAD7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33243DDC25C3282500BDA158 /* GAD7View.swift */; };
 		33243DDE25C3282500BDA158 /* GAD7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33243DDC25C3282500BDA158 /* GAD7View.swift */; };
 		3373CEA7260B864600BDFD09 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373CEA6260B864600BDFD09 /* Question.swift */; };
+		3373CEAB260B89C500BDFD09 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373CEAA260B89C500BDFD09 /* Response.swift */; };
 		337622892609233300A1B1D1 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337622882609233300A1B1D1 /* SwiftUIView.swift */; };
 		3376228A2609233300A1B1D1 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337622882609233300A1B1D1 /* SwiftUIView.swift */; };
 		339942132605343300819783 /* ResultsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339942122605343300819783 /* ResultsStore.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		33243DDC25C3282500BDA158 /* GAD7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAD7View.swift; sourceTree = "<group>"; };
 		3373CEA6260B864600BDFD09 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		3373CEAA260B89C500BDFD09 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		337622882609233300A1B1D1 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		339942122605343300819783 /* ResultsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsStore.swift; sourceTree = "<group>"; };
 		33F2412D25C31D8E0093E33E /* PatientHealthQuestionnaireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHealthQuestionnaireApp.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				339942122605343300819783 /* ResultsStore.swift */,
 				3373CEA6260B864600BDFD09 /* Question.swift */,
+				3373CEAA260B89C500BDFD09 /* Response.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				33F2414225C31D930093E33E /* ContentView.swift in Sources */,
 				33F2416525C323A50093E33E /* PHQ9.swift in Sources */,
 				3373CEA7260B864600BDFD09 /* Question.swift in Sources */,
+				3373CEAB260B89C500BDFD09 /* Response.swift in Sources */,
 				33F2414025C31D930093E33E /* PatientHealthQuestionnaireApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
