@@ -14,7 +14,7 @@ class Questions {
     
     // Initializer
     
-    init() {
+    internal init() {
         
         // Define the different questions
         
