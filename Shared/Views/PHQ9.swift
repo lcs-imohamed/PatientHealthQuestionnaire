@@ -10,12 +10,14 @@ import SwiftUI
 struct PHQ9: View {
     
     @ObservedObject var store: ResultsStore
+
     
     var body: some View {
         
         VStack {
             //Adds prompt to screen
 //            NavigationLink
+            
                 
             
             Text("1. Over the last 2 weeks, how often have you been bothered by any of the following problems?")

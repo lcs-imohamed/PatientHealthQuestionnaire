@@ -11,4 +11,5 @@ struct Response: Identifiable {
     let id = UUID()
     let responseText: String
     let responseScore: Int
+    
 }
