@@ -8,7 +8,7 @@
 import Foundation
 
 struct Response: Identifiable {
-    let id = Int()
+    let id: Int
     let responseText: String
     let responseScore: Int
     
