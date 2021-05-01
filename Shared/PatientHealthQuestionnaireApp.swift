@@ -9,15 +9,19 @@ import SwiftUI
 
 @main
 struct PatientHealthQuestionnaireApp: App {
+    
+    
+    
     var body: some Scene {
         WindowGroup {
             
             //Add navigation view for list main page
             
 //            NavigationView {
-//                SwiftUIView()
+//                PHQ9QuestionView()
 //            }
-        
+            
+            
             TabView {
                 
                 //Add navigation view of PHQ9 View

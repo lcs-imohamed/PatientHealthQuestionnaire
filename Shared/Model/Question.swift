@@ -13,12 +13,10 @@ struct Question: Identifiable {
     let questionText: String
     let Responses: [Response]
 }
+//var idAsString = "\(Question.id)"
+//questionsToShow[0].id
 
-// Populate the model
-// Make array of questions
-
-
-let questions = [
+let questionsToShow = [
 
     Question(id: 1, questionText: "1. Little interest or pleasure in doing things", Responses: [
         Response(id: 1, responseText: "Not at all", responseScore: 0),
@@ -102,3 +100,5 @@ let questions = [
     
 
 ]
+
+
