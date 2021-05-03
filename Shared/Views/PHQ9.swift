@@ -20,8 +20,8 @@ struct PHQ9: View {
             
         //Adds question list to screen showing the id number of each question
             
-            List(questionsToShow) { thing in
-                NavigationLink("\(thing.id)", destination:PHQ9QuestionView(store: testStore))
+            List(questionsToShow) { question in
+                NavigationLink("\(question.id)", destination:PHQ9QuestionView(store: testStore, currentQuestion: question))
                 
             }
         
