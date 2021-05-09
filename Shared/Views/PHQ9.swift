@@ -24,9 +24,11 @@ struct PHQ9: View {
                 NavigationLink("\(question.id)", destination:PHQ9QuestionView(store: testStore, currentQuestion: question))
                 
             }
-        
-                
-//
+            
+            NavigationLink("Done", destination: ScoreView(store: testStore))
+            }
+                    
+
 
         //Adds title to screen
             .navigationTitle("PHQ-9")
@@ -42,4 +44,4 @@ struct PHQ9_Previews: PreviewProvider {
        
     }
 }
-}
+

@@ -15,12 +15,20 @@ struct PHQ9QuestionView: View {
     var currentQuestion: Question
     
     var body: some View {
-                    Text("Over the last 2 weeks, how often have you been bothered by any of the following problems?")
-                        .font(.subheadline)
+        
+        Text("Over the last 2 weeks, how often have you been bothered by any of the following problems?")
+            .multilineTextAlignment(.leading)
+            .frame(width: 300)
+                
+                       
         
                     Spacer()
         
         Text(currentQuestion.questionText)
+            .font(.subheadline)
+            .multilineTextAlignment(.center)
+            .frame(width: 300)
+        
         
                     Spacer()
         
@@ -59,7 +67,6 @@ struct PHQ9QuestionView: View {
                         .padding()
         
         
-                        Text("Current score: \(store.score)")
         
         
                     }
