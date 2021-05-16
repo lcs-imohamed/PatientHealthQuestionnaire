@@ -5,6 +5,7 @@
 //  Created by Mohamed, Ilana on 2021-03-19.
 //
 
+import Combine
 import Foundation
 
 // Add a class to keep track of user's score using var score

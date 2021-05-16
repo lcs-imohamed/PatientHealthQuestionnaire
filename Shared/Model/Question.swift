@@ -7,9 +7,12 @@
 
 import Foundation
 
+
+
+
 //Create a structure to represent the question displayed to the user
 struct Question: Identifiable {
-    let id: Int
+    var id: Int
     let questionText: String
     let Responses: [Response]
 }
@@ -92,13 +95,6 @@ let questionsToShow = [
         Response(id: 4, responseText: "Nearly every day", responseScore: 3)
     ]),
     
-    
-    
-    
-    
-    
-    
-
 ]
 
 

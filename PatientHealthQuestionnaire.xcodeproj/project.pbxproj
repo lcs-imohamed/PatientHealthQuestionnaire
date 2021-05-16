@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3318777026473556007EBD8E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3318776F26473556007EBD8E /* SearchBar.swift */; };
 		33243DDD25C3282500BDA158 /* GAD7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33243DDC25C3282500BDA158 /* GAD7View.swift */; };
 		33243DDE25C3282500BDA158 /* GAD7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33243DDC25C3282500BDA158 /* GAD7View.swift */; };
 		3344B82E26407BD300888873 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344B82D26407BD300888873 /* ScoreView.swift */; };
@@ -28,7 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3318776F26473556007EBD8E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		33243DDC25C3282500BDA158 /* GAD7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAD7View.swift; sourceTree = "<group>"; };
 		3344B82D26407BD300888873 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		3373CEA6260B864600BDFD09 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				339942122605343300819783 /* ResultsStore.swift */,
 				3373CEA6260B864600BDFD09 /* Question.swift */,
 				3373CEAA260B89C500BDFD09 /* Response.swift */,
-				3318776F26473556007EBD8E /* SearchBar.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -238,7 +235,6 @@
 				33F2414225C31D930093E33E /* ContentView.swift in Sources */,
 				33F2416525C323A50093E33E /* PHQ9.swift in Sources */,
 				3373CEA7260B864600BDFD09 /* Question.swift in Sources */,
-				3318777026473556007EBD8E /* SearchBar.swift in Sources */,
 				3373CEAB260B89C500BDFD09 /* Response.swift in Sources */,
 				33F2414025C31D930093E33E /* PatientHealthQuestionnaireApp.swift in Sources */,
 			);
