@@ -2,11 +2,10 @@
 //  Response.swift
 //  PatientHealthQuestionnaire (iOS)
 //
-//  Created by Mohamed, Ilana on 2021-03-24.
-//
 
 import Foundation
 
+//Create a struct to represent response with the required properties
 struct Response: Identifiable {
     let id: Int
     let responseText: String

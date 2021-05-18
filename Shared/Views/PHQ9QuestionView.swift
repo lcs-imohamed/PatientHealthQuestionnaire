@@ -2,7 +2,7 @@
 //  PHQ9QuestionView.swift
 //  PatientHealthQuestionnaire
 //
-//  Created by Mohamed, Ilana on 2021-03-22.
+
 //
 
 import SwiftUI
@@ -16,6 +16,7 @@ struct PHQ9QuestionView: View {
     
     var body: some View {
         
+        //Add prompt to screen
         Text("Over the last 2 weeks, how often have you been bothered by any of the following problems?")
             .multilineTextAlignment(.leading)
             .frame(width: 300)
@@ -24,6 +25,7 @@ struct PHQ9QuestionView: View {
         
                     Spacer()
         
+        //Get the current question based on the id the user clicked on 
         Text(currentQuestion.questionText)
             .font(.subheadline)
             .multilineTextAlignment(.center)
@@ -79,12 +81,4 @@ struct PHQ9QuestionView: View {
 }
 
 
-//struct PHQ9QuestionView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        NavigationView {
-//
-//            PHQ9QuestionView(store: testStore, currentQuestion: Question(id: question.id, questionText: Question.questionText, Responses: Question.Responses) )
-//        }
-//
-//    }
-//}
+

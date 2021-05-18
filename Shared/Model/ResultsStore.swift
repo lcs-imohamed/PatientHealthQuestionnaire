@@ -2,8 +2,7 @@
 //  ResultsStore.swift
 //  PatientHealthQuestionnaire (iOS)
 //
-//  Created by Mohamed, Ilana on 2021-03-19.
-//
+
 
 import Combine
 import Foundation

@@ -2,8 +2,7 @@
 //  Question.swift
 //  PatientHealthQuestionnaire (iOS)
 //
-//  Created by Mohamed, Ilana on 2021-03-24.
-//
+
 
 import Foundation
 
@@ -16,9 +15,8 @@ struct Question: Identifiable {
     let questionText: String
     let Responses: [Response]
 }
-//var idAsString = "\(Question.id)"
-//questionsToShow[0].id
 
+//Create array of questions called questionsToShow
 let questionsToShow = [
 
     Question(id: 1, questionText: "1. Little interest or pleasure in doing things", Responses: [

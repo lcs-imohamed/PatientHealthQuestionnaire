@@ -2,7 +2,7 @@
 //  ScoreView.swift
 //  PatientHealthQuestionnaire
 //
-//  Created by Mohamed, Ilana on 2021-05-03.
+
 //
 
 import SwiftUI
@@ -12,6 +12,7 @@ struct ScoreView: View {
     
     @ObservedObject var store: ResultsStore
     
+    //Present the user with their total score
     var body: some View {
         Text("Your score is: \(store.score)")
     }

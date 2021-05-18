@@ -2,7 +2,6 @@
 //  PHQ9.swift
 //  PatientHealthQuestionnaire
 //
-//  Created by Mohamed, Ilana on 2021-01-28.
 //
 
 import SwiftUI
